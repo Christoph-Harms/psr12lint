@@ -12,4 +12,6 @@ require_once __DIR__ . '/vendor/autoload.php';
 
 $app = new \Cilex\Application('psr12lint');
 
+$app->command(new \Psr12Lint\Commands\LintCommand());
+
 $app->run();

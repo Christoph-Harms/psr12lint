@@ -1,5 +1,9 @@
 {
     "require": {
         "cilex/cilex": "1.0.*@dev"
+    },
+
+    "autoload": {
+        "psr-4": {"Psr12Lint\\": "src/"}
     }
 }
